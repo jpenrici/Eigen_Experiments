@@ -7,12 +7,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(SOURCES
     main.cpp
-    ../functions.h
+    ../../functions.h
 )
 
 set(RESOURCE_FILES
-    ../Resources/table.csv
-    ../Resources/image.png
+    ../../Resources/table.csv
+    ../../Resources/image.png
+    ../../Resources/plant.png
 )
 
 find_package(Eigen3 3.3 REQUIRED NO_MODULE)

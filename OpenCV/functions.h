@@ -86,8 +86,6 @@ void vecStr2matrix(auto &matrix, std::vector<std::vector<std::string> > vector2D
     int maxCols{0};
     for (auto row : vector2D) {
         maxCols = row.size() >= maxCols ? row.size() : maxCols;
-        for (auto col : row) {
-        }
     }
 
     // Fill
