@@ -11,8 +11,8 @@ set(SOURCES
 )
 
 set(RESOURCE_FILES
-    Resources/table.csv
-    Resources/image.png
+    ../Resources/table.csv
+    ../Resources/image.png
 )
 
 find_package(Eigen3 3.3 REQUIRED NO_MODULE)
